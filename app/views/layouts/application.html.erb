@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+    <a class="navbar-brand" href="#"><%=link_to "Create a movie list", new_list_path %></a>
+  </nav>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
